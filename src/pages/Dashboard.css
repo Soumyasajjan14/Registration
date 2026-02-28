@@ -1,0 +1,62 @@
+/* Dashboard Styles - Black & Blue Theme */
+
+.dashboard-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 50%, #16213e 100%);
+    padding: 20px;
+}
+
+.dashboard-content {
+    text-align: center;
+}
+
+.welcome-card {
+    background: rgba(26, 26, 26, 0.95);
+    border: 1px solid #2a2a4a;
+    border-radius: 20px;
+    padding: 60px 80px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5), 0 0 60px rgba(59, 130, 246, 0.15);
+}
+
+.welcome-title {
+    color: #ffffff;
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    background: linear-gradient(90deg, #ffffff 0%, #3b82f6 50%, #60a5fa 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.welcome-subtitle {
+    color: #9ca3af;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.accent-line {
+    width: 80px;
+    height: 4px;
+    background: linear-gradient(90deg, #2563eb 0%, #3b82f6 100%);
+    border-radius: 2px;
+    margin: 0 auto;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .welcome-card {
+        padding: 40px 30px;
+    }
+
+    .welcome-title {
+        font-size: 28px;
+    }
+
+    .welcome-subtitle {
+        font-size: 15px;
+    }
+}

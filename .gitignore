@@ -1,0 +1,19 @@
+# Dependencies
+backend/node_modules/
+frontend/node_modules/
+
+# Environment variables
+backend/.env
+
+# Build files
+frontend/dist/
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+.vercel
+.env*.local
