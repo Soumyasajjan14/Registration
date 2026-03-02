@@ -56,7 +56,7 @@ const Register = () => {
         setLoading(true);
 
         try {
-            const response = await axios.post('https://api-5plrud2eq-sajjansoumya14-3364s-projects.vercel.app/api/auth/register', {
+            const response = await axios.post('https://api-iey61vvcy-sajjansoumya14-3364s-projects.vercel.app/api/auth/register', {
                 username: formData.username,
                 email: formData.email,
                 phone: formData.phone,
